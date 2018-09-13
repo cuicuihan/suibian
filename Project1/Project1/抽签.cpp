@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<cstdio>
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -28,9 +28,7 @@ int main()
 	int f = 0;
 	scanf("%d%d", &n, &m);
 	for (int i = 0; i<n; i++)
-	{
 		scanf("%d", &k[i]);
-	}
 	int a, b, c, d;
 	for(a=0;a<n;a++)
 		for (b =0; b < n; b++)
